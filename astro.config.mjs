@@ -32,8 +32,6 @@ const oklchToHex = (str) => {
 
 // https://astro.build/config
 export default defineConfig({
-  output: 'server',
-  adapter: vercel(),
   site: "https://finchbones.vercel.app/",
   base: "/",
   trailingSlash: "always",
